@@ -20,7 +20,7 @@ def value_y(a, b, c, x):
 
 
 def to_string(a, b, c):
-        if (a == 0) and (b != 0) and (c == 0):
+    if (a == 0) and (b != 0) and (c == 0):
         return (f"f(x) = {b} * X")
     elif (a != 0) and (b == 0) and (c != 0):
         return (f"f(x) = {a} * X^2 + {c}")
