@@ -20,6 +20,7 @@ def value_y(a, b, c, x):
 
 
 def to_string(a, b, c):
+    coeficent = 2 * a
     if (a == 0) and (b != 0) and (c == 0):
         return (f"f(x) = {b} * X")
     elif (a != 0) and (b == 0) and (c != 0):
